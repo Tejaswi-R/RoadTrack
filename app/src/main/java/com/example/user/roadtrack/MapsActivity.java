@@ -357,6 +357,7 @@ public class MapsActivity extends ActionBarActivity
 
                 // Add a marker for each logged location
                 MarkerOptions mMarkerOption = new MarkerOptions()
+
                         .position(mLatlng)
                         .title(timestamp)
                         .icon(BitmapDescriptorFactory.fromResource(R.drawable.code_the_road_small));
