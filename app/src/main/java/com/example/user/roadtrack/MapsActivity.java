@@ -62,6 +62,8 @@ public class MapsActivity extends ActionBarActivity
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener {
 
+    // this is a test commit
+
     private static final String TAG = "Road Tracking";
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
     private GoogleApiClient mGoogleApiClient;
